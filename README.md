@@ -20,4 +20,6 @@ The engine is divided into modules:
 
 **toolkit.js** - provides startup/shutdown methods and handles the loading of other modules and game assets. It incorporates a custom, high performance asynchronous module loading pattern (somewhat like RequireJS without the ceremony).
 
-**ui.js** - provides UI components for the game, such as dialog boxes and form-based controls.
+**ui.js** - provides UI components for the game, such as dialog boxes and form-based controls. Development has not started on this module yet, but the goal is to migrate the UI components from the editor into this module so that they can be used not only by the editor but also by the game designer for in-game UI.
+
+**network.js** - provides multiplayer capabilities through a local listen server or hosted internet server. Development has not started on this module yet, but the goal is to adapt the very high performance networking code from Rapid Server (a .NET project) into this module as native JavaScript. Considering socket.io/node.js as well.
