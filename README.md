@@ -10,7 +10,7 @@ The engine is divided into modules:
 
 **editor.js** - provides live editing of the game during run-time and includes visual debugging tools. The goal is to offer non-technical users and non-programmers a way to build games from start to finish.
 
-**engine.js** - provides the game loop and render pipeline for 2d graphics. The engine "pushes the game forward in time or state". Automatically handles text, sprites with frame-based animations, and composite sprites. Supports tile maps and image-based levels. Includes an entity component system as discussed in [Introduction to Component Based Architecture in Games](http://www.raywenderlich.com/24878/introduction-to-component-based-architecture-in-games) by Ray Wenderlich.
+**engine.js** - provides the game loop and render pipeline for 2d graphics. The engine *pushes the game forward in time or state*. Automatically handles text, sprites with frame-based animations, and composite sprites. Supports Google web fonts, tile maps and image-based levels. Handles display size, resolution and screen scaling. Includes an entity component system as discussed in [Introduction to Component Based Architecture in Games](http://www.raywenderlich.com/24878/introduction-to-component-based-architecture-in-games) by Ray Wenderlich.
 
 **input.js** - provides keyboard and mouse input. Input events can be attached to any game entity e.g. entity.on("click", function() { //do something }). The goal is to offer more types of input devices such as gamepads, touchscreens, touchscreen remoting, Wiimote, voice/gesture commands, etc.
 
