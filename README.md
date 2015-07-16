@@ -2,9 +2,7 @@ An HTML5 game engine developed from scratch.
 
 ![rapid-engine](http://i.imgur.com/KoVKzJv.gif)
 
-![rapid-engine](http://i.imgur.com/iY6lvKl.gif)
-
-<iframe class="imgur-embed" width="100%" height="500" frameborder="0" src="http://i.imgur.com/iY6lvKl.gifv#embed"></iframe>
+![rapid-engine](http://i.imgur.com/iY6lvKl)
 
 The engine is divided into modules:
 
