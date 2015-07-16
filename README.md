@@ -10,9 +10,9 @@ The engine is divided into modules:
 
 **editor.js** - provides live editing of the game during run-time and includes visual debugging tools. The goal is to offer non-technical users and non-programmers a way to build games from start to finish.
 
-**engine.js** - provides the game loop and render pipeline for 2d graphics. The engine "pushes the game forward in time or state". Automatically handles sprites with frame-based animations, and composite sprites. Supports tile-based maps and background-based levels.
+**engine.js** - provides the game loop and render pipeline for 2d graphics. The engine "pushes the game forward in time or state". Automatically handles text, sprites with frame-based animations, and composite sprites. Supports tile maps and image-based levels. Includes an entity component system.
 
-**input.js** - provides keyboard and mouse input. Input events can be attached to any game entity e.g. entity.on("click", function() { //do something }). The goal is to offer more types of input devices such as gamepads, touchscreens, touchscreen remoting, Wiimote, etc.
+**input.js** - provides keyboard and mouse input. Input events can be attached to any game entity e.g. entity.on("click", function() { //do something }). The goal is to offer more types of input devices such as gamepads, touchscreens, touchscreen remoting, Wiimote, voice/gesture commands, etc.
 
 **physics.js** - provides the physics pipeline for object movement and collision detection. Runs in real-time, or at a fixed timestep independent of the rendering. For example, set the timestep to 100ms and the physics will update only 10 times per second. The timestep can be changed during run-time, which is great for testing/debugging. Currently provides grid-based space partitioning for broad-phase collision detection. Collision events can be attached to any game entity e.g. entity.on("collision", function() { //do something }). Entities can be told to ignore others. The goal is to support very fast moving objects, multiple collisions and conservation of momentum.
 
