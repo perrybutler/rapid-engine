@@ -2,6 +2,8 @@ An HTML5 game engine developed from scratch.
 
 ![rapid-engine](http://i.imgur.com/KoVKzJv.gif)
 
+![rapid-engine](http://i.imgur.com/iY6lvKl.gifv)
+
 The engine is divided into modules:
 
 **ai.js** - provides artificial intelligence functions that can be applied to any game entity. The goal is to offer a flexible AI system and designer similar to Skyrim and/or Final Fantasy XII gambits.
