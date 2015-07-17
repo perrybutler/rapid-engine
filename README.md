@@ -30,7 +30,7 @@ The engine is divided into modules:
 
 The source code consists of standards-compliant HTML, CSS and JavaScript. This means Rapid Engine is write-once run anywhere and cross platform. It is designed to work on major mobile OS's (iOS, Android, Windows Phone), major desktop web browsers (Chrome, FireFox, IE, Opera, Vivaldi), and major gaming consoles (Playstation 4, Nintendo Wii U, X-Box One). Total cross platform capability is never guaranteed because each vendor may implement features at different times, but when possible the aim is to carefully make compromises that forgo vendor-specific features in favor of more standards-compliant methods.
 
-All entities are created equal but may later specify new behaviors and capabilities, so the rendering and physics pipelines rely on *duck typing* to determine when and how an entity is handled.
+All entities are created equal but may later specify new behaviors and capabilities via the entity component system, so the rendering and physics pipelines rely on *duck typing* to determine when and how an entity is handled.
 
 ##Roadmap##
 
