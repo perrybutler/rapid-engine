@@ -30,6 +30,8 @@ The source code consists of standards-compliant HTML, CSS and JavaScript. This m
 
 All entities are created equal but may later specify new behaviors and capabilities via the entity component system, so the rendering and physics pipelines rely on *duck typing*, as clarified by John Peterson in the article [What is "duck typing"?](http://ericlippert.com/2014/01/02/what-is-duck-typing/) by Eric Lippert, to determine when and how an entity is handled at run-time.
 
+Games can be developed and played offline/without a server/from the local file system (by opening the .html file in a web browser), but some features such as the visual editor and multiplayer networking will not work at all from the local file system, or may require some kind of utility/emulator. For a fully integrated experience, set up a local development web server and host the entire package rather than working straight from the file system. There are currently no databases to set up or manage, no proprietary languages or formats, and no compiling or build tools. This could change if larger projects demand it, but for now it's all HTML, CSS, JavaScript, JSON, image and sound files organized into various folders.
+
 ##Roadmap##
 
 * Wrap up alpha version and submit an entry for JSBreakouts.
