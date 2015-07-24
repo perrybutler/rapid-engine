@@ -2,7 +2,7 @@ An HTML5 game engine developed from scratch.
 
 ![rapid-engine-1](http://i.imgur.com/KoVKzJv.gif)
 
-*The current version has been tested to work with Google Chrome 43, FireFox 31, Internet Explorer 11 and iPhone 4/5 (w/ latest iOS).
+*The current version has been tested to work with Google Chrome 43, FireFox 31, Internet Explorer 11 and iPhone 4/5 (w/ latest iOS).*
 
 The engine is divided into modules:
 
