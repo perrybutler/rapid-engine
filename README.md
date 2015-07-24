@@ -2,6 +2,8 @@ An HTML5 game engine developed from scratch.
 
 ![rapid-engine-1](http://i.imgur.com/KoVKzJv.gif)
 
+*The current version has been tested to work with Google Chrome 43, FireFox 31, Internet Explorer 11 and Mobile Safari 6 with no major differences or special requirements.*
+
 The engine is divided into modules:
 
 **ai.js** - provides artificial intelligence functions that can be applied to any game entity. The goal is to offer a flexible AI system and designer similar to Skyrim and/or Final Fantasy XII gambits. Design AI "packages" containing unique behaviors that can be hot-swapped at runtime.
@@ -31,6 +33,14 @@ The source code consists of standards-compliant HTML, CSS and JavaScript. This m
 All entities are created equal but may later specify new behaviors and capabilities via the entity component system, so the rendering and physics pipelines rely on *duck typing*, as clarified by John Peterson in the article [What is "duck typing"?](http://ericlippert.com/2014/01/02/what-is-duck-typing/) by Eric Lippert, to determine when and how an entity is handled at run-time.
 
 Games can be developed and played offline/without a server/from the local file system (by opening the .html file in a web browser), but some features such as the visual editor and multiplayer networking will not work at all from the local file system, or may require some kind of utility/emulator. For a fully integrated experience, set up a local development web server and host the entire package rather than working straight from the file system. There are currently no databases to set up or manage, no proprietary languages or formats, and no compiling or build tools. This could change if larger projects demand it, but for now it's all HTML, CSS, JavaScript, JSON, image and sound files organized into various folders.
+
+##Is HTML5 Even Viable?##
+
+The HTML5 landscape has been riddled with caveats since its inception. There are still issues - web audio is not fully supported by all web browsers, canvas rendering slows down for certain mobile devices, etc. Even so, HTML5 was completed less than a year ago, so there is a lot of work ahead for game developers to discover new patterns and optimizations, and for browser developers to optimize these new HTML5 features further. There are some inspiring hobby projects and a few AAA titles that prove HTML5 can be a viable platform moving forward.
+
+There are other obstacles as well - if the game just runs in a web browser, that means anyone can simply visit your URL and play it, but how are you going to publish it to Apple's App Store so it can get exposure (ratings) and so users can find it easily from their iPhone? Luckily, there are things like CocoonJS that can wrap an entire HTML5 game into a native-like app.
+
+The barriers continue to be eliminated, so now is a good time to discover what HTML5 game development is all about.
 
 ##Roadmap##
 
