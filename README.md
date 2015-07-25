@@ -42,6 +42,22 @@ There are other obstacles as well - if the game just runs in a web browser, that
 
 The barriers continue to be eliminated, so now is a good time to discover what HTML5 game development is all about.
 
+##Captures##
+
+![animation](https://dl.dropboxusercontent.com/u/541743/rapid/captures/animation.gif)
+
+![spawn-sprite](https://dl.dropboxusercontent.com/u/541743/rapid/captures/spawn-sprite.gif)
+
+![push](https://dl.dropboxusercontent.com/u/541743/rapid/captures/push.gif)
+
+![loader](https://dl.dropboxusercontent.com/u/541743/rapid/captures/loader.jpg)
+
+![breakout-1](https://dl.dropboxusercontent.com/u/541743/rapid/captures/breakout-1.gif)
+
+![editor](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor.gif)
+
+![editor-2](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor-2.gif)
+
 ##Roadmap##
 
 * Wrap up alpha version and submit an entry for JSBreakouts.
