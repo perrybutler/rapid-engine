@@ -1,4 +1,4 @@
-An HTML5 game engine developed from scratch.
+Don't really have a permanent name for this thing yet. It's an HTML5 game engine developed from scratch.
 
 ![editor](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor.gif)
 
