@@ -52,6 +52,8 @@ The barriers continue to be eliminated, so now is a good time to discover what H
 
 ![loader](https://dl.dropboxusercontent.com/u/541743/rapid/captures/loader.jpg)
 
+![debug](https://dl.dropboxusercontent.com/u/541743/rapid/captures/debug.jpg)
+
 ![breakout-1](https://dl.dropboxusercontent.com/u/541743/rapid/captures/breakout-1.gif)
 
 ![editor-2](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor-2.gif)
