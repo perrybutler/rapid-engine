@@ -61,3 +61,9 @@ The barriers continue to be eliminated, so now is a good time to discover what H
 ##Roadmap##
 
 * Wrap up alpha version and submit an entry for JSBreakouts.
+
+##History##
+
+##Disclaimer##
+
+I do not own the graphics depicted in this article, nor do I have permission to use them in a commercial product. The graphics were found using Google Image search, and they are being used here solely for showcasing the engine’s capabilities and progress. The tree sprites are from Here Be Monsters, and the player/wolf sprites are from Ragnarok Online.
