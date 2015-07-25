@@ -1,6 +1,6 @@
 An HTML5 game engine developed from scratch.
 
-![rapid-engine-1](http://i.imgur.com/KoVKzJv.gif)
+![editor](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor.gif)
 
 *The current version has been tested to work with Google Chrome 43, FireFox 31, Internet Explorer 11 and iPhone 4/5 (w/ latest iOS). Not yet tested with any console or portable gaming system.*
 
@@ -53,8 +53,6 @@ The barriers continue to be eliminated, so now is a good time to discover what H
 ![loader](https://dl.dropboxusercontent.com/u/541743/rapid/captures/loader.jpg)
 
 ![breakout-1](https://dl.dropboxusercontent.com/u/541743/rapid/captures/breakout-1.gif)
-
-![editor](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor.gif)
 
 ![editor-2](https://dl.dropboxusercontent.com/u/541743/rapid/captures/editor-2.gif)
 
