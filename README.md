@@ -4,6 +4,12 @@ Don't really have a permanent name for this thing yet. It's an HTML5 game engine
 
 *The current version has been tested to work with Google Chrome 43, FireFox 31, Internet Explorer 11 and iPhone 4/5 (w/ latest iOS). Not yet tested with any console or portable gaming system.*
 
+It's lightweight (these are unminified/uncompressed sizes):
+
+Without editor: **90 KB**
+With editor (jQuery + Font Awesome): **1.04 MB**
+Breakout game (with editor): **1.14 MB**
+
 The engine is divided into modules:
 
 **ai.js** - provides artificial intelligence functions that can be applied to any game entity. The goal is to offer a flexible AI system and designer similar to Skyrim and/or Final Fantasy XII gambits. Design AI "packages" containing unique behaviors that can be hot-swapped at runtime.
