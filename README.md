@@ -10,6 +10,8 @@ Without editor: **90 KB**
 With editor (jQuery + Font Awesome): **1.04 MB**
 Breakout game (with editor): **1.14 MB**
 
+##Core Architecture##
+
 The engine is divided into modules:
 
 **ai.js** - provides artificial intelligence functions that can be applied to any game entity. The goal is to offer a flexible AI system and designer similar to Skyrim and/or Final Fantasy XII gambits. Design AI "packages" containing unique behaviors that can be hot-swapped at runtime.
