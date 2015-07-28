@@ -52,15 +52,9 @@ The barriers continue to be eliminated, so now is a good time to discover what H
 
 ##Captures##
 
-![animation](https://dl.dropboxusercontent.com/u/541743/rapid/captures/animation.gif)
-
-![spawn-sprite](https://dl.dropboxusercontent.com/u/541743/rapid/captures/spawn-sprite.gif)
-
 ![push](https://dl.dropboxusercontent.com/u/541743/rapid/captures/push.gif)
 
 ![loader](https://dl.dropboxusercontent.com/u/541743/rapid/captures/loader.jpg)
-
-![debug](https://dl.dropboxusercontent.com/u/541743/rapid/captures/debug.jpg)
 
 ![breakout-1](https://dl.dropboxusercontent.com/u/541743/rapid/captures/breakout-1.gif)
 
