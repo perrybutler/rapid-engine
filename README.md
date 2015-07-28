@@ -34,7 +34,7 @@ The engine is divided into modules:
 
 **network.js** - provides multiplayer capabilities through a local listen server or hosted internet server. Development has not started on this module yet, but the goal is to adapt the very high performance networking code from Rapid Server (a .NET project) into this module as native JavaScript. Considering socket.io/node.js as well.
 
-----------------------------------------------
+##Cross Platform - Write Once, Run Anywhere##
 
 The source code consists of standards-compliant HTML, CSS and JavaScript. This means Rapid Engine is write-once run anywhere and cross platform. It is designed to work on major mobile OS's (iOS, Android, Windows Phone), major desktop web browsers (Chrome, FireFox, IE, Opera, Vivaldi), and major gaming consoles (Playstation 4, Nintendo Wii U, X-Box One). There is no other language that comes close to JavaScript's cross-platform write-once run anywhere nature. Total cross platform capability is never guaranteed because each vendor may implement features at different times, but when possible the aim is to carefully make compromises that forgo vendor-specific features in favor of more standards-compliant methods.
 
