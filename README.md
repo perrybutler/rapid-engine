@@ -28,9 +28,9 @@ The engine is divided into modules:
 
 **sound.js** - provides sound effects and music, with overlapped sounds. The goal is to offer distance-based volume and other features typical to 2d games.
 
-**toolkit.js** - provides startup/shutdown methods and handles the loading of other modules and game assets. It incorporates a custom, high performance asynchronous module loading pattern (somewhat like RequireJS without the ceremony) which supports loading in parallel or series. There is a separate loader for game assets that works similarly, but allows .json files to act like relational data (not unlike MongoDB) for designing re-usable game components that incorporate any number of sub-assets or sub-components.
+**loader.js** - handles the loading of other modules and game assets. Incorporates a custom, high performance asynchronous module loading pattern (somewhat like RequireJS/AMD without the ceremony). Supports loading scripts and other resources in parallel or in series on-demand, dynamically at run-time. There is a separate loader for game assets that works similarly, but allows .json files to act like relational data (not unlike MongoDB) for designing re-usable game objects that incorporate any number of properties and data from other assets and components.
 
-**ui.js** - provides UI components for the game, such as dialog boxes and form-based controls. Development has not started on this module yet, but the goal is to migrate the UI components from the editor into this module so that they can be used not only by the editor but also by the game designer for in-game UI.
+**ui.js** - provides re-usable UI components, such as dialog boxes and form-based controls. Development has not started on this module yet, but the goal is to migrate the UI components from the editor into this module so that they can be used not only by the editor but also for the in-game UI.
 
 **network.js** - provides multiplayer capabilities through a local listen server or hosted internet server. Development has not started on this module yet, but the goal is to adapt the very high performance networking code from Rapid Server (a .NET project) into this module as native JavaScript. Considering socket.io/node.js as well.
 
