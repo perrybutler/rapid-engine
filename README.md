@@ -28,7 +28,9 @@ The engine is divided into modules:
 
 **sound.js** - provides sound effects and music, with overlapped sounds. The goal is to offer distance-based volume and other features typical to 2d games.
 
-**loader.js** - handles the loading of other modules and game assets. Incorporates a custom, high performance asynchronous module loading pattern (somewhat like RequireJS/AMD without the ceremony). Supports loading scripts and other resources in parallel or in series on-demand, dynamically at run-time. There is a separate loader for game assets that works similarly, but allows .json files to act like relational data (not unlike MongoDB) for designing re-usable game objects that incorporate any number of properties and data from other assets and components.
+**loader.js** - handles the loading of modules and game assets. Incorporates a custom, high performance asynchronous module loading pattern (somewhat like RequireJS/AMD without the ceremony). Supports loading scripts and other resources in parallel or in series on-demand, dynamically at run-time. Utilizes <script>, <style> and <link> tags when possible to allow cross-domain/CDN resource loading. Utilizes XMLHttpRequest for other types of resources. Never uses eval().
+
+There is a separate loader for game assets that works similarly, but allows .json files to act like relational data (not unlike MongoDB) for designing re-usable game objects that incorporate any number of properties and data from other assets and components.
 
 **ui.js** - provides re-usable UI components, such as dialog boxes and form-based controls. Development has not started on this module yet, but the goal is to migrate the UI components from the editor into this module so that they can be used not only by the editor but also for the in-game UI.
 
